@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Reenie+Beanie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+
+body {
+
+  margin: 0;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+div.content {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+header div.navbar {
+
+  height: 65px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgb(219, 215, 215)
+
+}
+
+
+header div.navbar ul {
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 25px;
+
+}
+
+header div.navbar ul li {
+
+  list-style-type: none;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+h2.logo {
+
+  font-family: "Reenie Beanie", serif;
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+
+}
+
+p.cursive {
+
+  font-family: "Reenie Beanie", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h2.logo a {
+
+  color: black;
+
+}
+
+ul li a {
+
+  color: rgb(95, 95, 95);
+  transition: 0.2s;
+
+}
+
+ul li a:hover {
+
+  color: rgb(32, 31, 31)
+
+}
+
+h1.quote {
+
+  margin-top: 70px;
+  color: rgb(55, 65, 81);
+
+  font-stretch:condensed;
+
+  font-family: "Reenie Beanie", serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+  min-block-size: 12px;
+  font-style: normal;
+
+  width: 30%
+
+}
+
+div.content form.submit-form {
+
+  margin-top: 13px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+div.content form.submit-form label {
+
+  text-align: left;
+  margin-bottom: 5px;
+
+}
+
+div.content form.submit-form button {
+
+  height: 30px;
+
+}
